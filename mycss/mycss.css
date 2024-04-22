@@ -1,0 +1,59 @@
+body {
+    background-image:url("images/PHOTO1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.self-portfolio {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.displayed-name a {
+    font-family: Arial;
+    text-decoration: none;
+    color: cyan;
+}
+
+.displayed-name a:hover {
+    border: 2px solid #333;
+    background-color: cyan;
+    border-radius: 8px;
+    background-color: darkblue;
+}
+
+.self-introduction,
+.educational-background,
+.expertise,
+.background-it,
+.applications { 
+    font-family: Arial;
+    text-align: left;
+    background-color: darkcyan;
+}
+
+ul {
+    list-style-type: square;
+    font-family: Arial;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial;
+}
+
+.th, td {
+    border: 1px solid #333;
+    text-align: left;
+    padding: 8px;
+}
